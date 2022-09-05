@@ -1,0 +1,54 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 1px solid grey;
+    width: 400px;
+    height: fit-content;
+    box-shadow: 15px 15px 5px;
+    gap: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: cornsilk;
+
+}
+#inputbox{
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: large;
+   border: none;
+    border-radius: 20px;
+    outline: 1px solid turquoise;
+
+
+}
+#genderdiv{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    font-size: large;
+    padding: 10px;
+}
+
+#submit{
+    width: 60%;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+    cursor: pointer;
+    margin: auto;
+}
+option{
+    font-size: large;
+    
+}
